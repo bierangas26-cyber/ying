@@ -1,0 +1,8 @@
+{
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.YING.title": "海蓝色",
+  "COLORFUL_PHILOSOPHERS.pages.INITIAL.options.YING.description": "获得{blue}{Cards}[blue]张夜乃樱的卡牌。",
+  "YING_NEOW_RELIC.title": "[反现实灾厄] 获得遗物",
+  "YING_NEOW_RELIC.desc": "获得蕴含反现实力量的灾厄遗物。",
+  "YING_NEOW_LEAVE.title": "[离开] 正常游玩",
+  "YING_NEOW_LEAVE.desc": "不领取遗物，直接进行常规的涅奥祝福选择。"
+}

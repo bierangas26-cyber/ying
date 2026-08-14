@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://cmmiykavoawl4"
+path="res://.godot/imported/AN.skel-a4cc73542aa34143725ff87a779f68ba.spskel"
+
+[deps]
+
+source_file="res://Spine/AN.skel"
+dest_files=["res://.godot/imported/AN.skel-a4cc73542aa34143725ff87a779f68ba.spskel"]
+
+[params]
+

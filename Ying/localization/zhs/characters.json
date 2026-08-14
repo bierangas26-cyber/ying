@@ -1,0 +1,21 @@
+{
+  "YING_CHARACTER_YING.title": "夜乃樱",
+  "YING_CHARACTER_YING.titleObject": "夜乃樱",
+  "YING_CHARACTER_YING.description": "体内寄宿着被称为“蓝之心脏”的反现实内脏.冷酷孤高的“学园”最强学生会会长.",
+  "YING_CHARACTER_YING.pronounSubject": "她",
+  "YING_CHARACTER_YING.pronounObject": "她",
+  "YING_CHARACTER_YING.pronounPossessive": "她的",
+  "YING_CHARACTER_YING.possessiveAdjective": "她的",
+  "YING_CHARACTER_YING.goldMonologue": "[sine]这些金币[/sine]",
+  "YING_CHARACTER_YING.eventDeathPrevention": "还...还不能倒下...",
+  "YING_CHARACTER_YING.aromaPrinciple": "幽香",
+  "YING_CHARACTER_YING.cardsModifierTitle": "双极护盾",
+  "YING_CHARACTER_YING.cardsModifierDescription": "获得额外的属性。",
+  "YING_CHARACTER_YING.banter.alive.endTurnPing": "轮到你了。",
+  "YING_CHARACTER_YING.banter.dead.endTurnPing": "还...还不能倒下...",
+  "YING_CHARACTER_YING.unlockText": "进行一局游戏来解锁这个角色。",
+  "YING_CHARACTER_YING.defeatMessage": "还...还不能倒下...",
+  "YING_CHARACTER_YING.flavor": "背负着沉重锁链的少女，在无尽的轮回中寻找救赎。",
+  "YING_CHARACTER_YING.selectMessage": "心跳的声音...你听到了吗？",
+  "YING_CHARACTER_YING.victoryMessage": "我呀，可不太擅长放弃，仅仅是治愈别人罢了。"
+}

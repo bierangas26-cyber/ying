@@ -1,0 +1,39 @@
+﻿<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Ying\localization\zhs\ancients.json" />
+    <Content Include="Ying\localization\zhs\cards.json" />
+    <Content Include="Ying\localization\zhs\characters.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Nothing.STS2RitsuLib.ModAnalyzers" Version="0.8.1" />
+	   <AdditionalFiles Include="Ying\localization\**\*.json" />	  
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>..\..\..\..\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="sts2">
+      <HintPath>..\..\..\..\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\sts2.dll</HintPath>
+    </Reference>
+    <Reference Include="STS2-RitsuLib">
+      <HintPath>..\..\..\..\steam\steamapps\workshop\content\2868840\3747602295\lib\0.107.1\STS2-RitsuLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ying\images\Cards\Big\" />
+    <Folder Include="Ying\images\Charui\" />
+    <Folder Include="Ying\images\Powers\" />
+    <Folder Include="Ying\images\Relics\" />
+    <Folder Include="Ying\images\UI\" />
+  </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties ying_4localization_4zhs_4cards_1json__JsonSchema="https://atmos.tools/schemas/atmos/atmos-manifest/1.0/atmos-manifest.json" /></VisualStudio></ProjectExtensions>
+</Project>

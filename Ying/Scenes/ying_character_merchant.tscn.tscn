@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://c38w4k1qkafmh"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://bkcan5pkxdqdq" path="res://Spine/AN.atlas" id="1_avj65"]
+[ext_resource type="Script" uid="uid://c4cp61m2no6b" path="res://src/Core/Nodes/Screens/Shops/NMerchantCharacter.cs" id="1_xxbwe"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cmmiykavoawl4" path="res://Spine/AN.skel" id="2_xxbwe"]
+
+[sub_resource type="SpineSkeletonDataResource" id="SpineSkeletonDataResource_th3ww"]
+atlas_res = ExtResource("1_avj65")
+skeleton_file_res = ExtResource("2_xxbwe")
+
+[node name="YingCharacterMerchant" type="Node2D"]
+script = ExtResource("1_xxbwe")
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+scale = Vector2(-0.32, 0.32)
+skeleton_data_res = SubResource("SpineSkeletonDataResource_th3ww")
+preview_skin = "Default"
+preview_animation = "relaxed_loop"
+preview_frame = false
+preview_time = 0.0

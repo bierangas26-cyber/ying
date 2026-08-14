@@ -1,0 +1,19 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# 大文件（超 GitHub 100MB 限制或可再生）
+*.pck
+*.pck*.tmp
+*.zip
+*.ogv
+
+# 构建产物
+bin/
+obj/
+.vs/
+*.user
+
+# 系统文件
+Thumbs.db
+.DS_Store

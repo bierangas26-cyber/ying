@@ -1,0 +1,40 @@
+[gd_scene load_steps=2 format=3 uid="uid://d4jow1osrpgsu"]
+
+[ext_resource type="Texture2D" uid="uid://c5xesjpfdujvg" path="res://Ying/Images/Visual/72ab4f83971e6b7d42b77d6c8e42e9bc.png" id="1_iiqtk"]
+
+[node name="CardHeartbeatCost" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -468.0
+offset_top = -532.0
+offset_right = -468.0
+offset_bottom = -532.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(333, 385)
+scale = Vector2(0.014086347, 0.014256938)
+texture = ExtResource("1_iiqtk")
+
+[node name="CostLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 287.0
+offset_top = 345.0
+offset_right = 378.0
+offset_bottom = 426.0
+theme_override_colors/default_color = Color(0.8710034, 1, 0.99910337, 1)
+theme_override_colors/font_outline_color = Color(0.45438862, 0.63780826, 1, 1)
+theme_override_constants/shadow_outline_size = 4
+theme_override_constants/shadow_offset_x = 4
+theme_override_constants/outline_size = 6
+theme_override_font_sizes/normal_font_size = 26
+theme_override_font_sizes/bold_font_size = 26
+theme_override_font_sizes/bold_italics_font_size = 26
+theme_override_font_sizes/italics_font_size = 26
+theme_override_font_sizes/mono_font_size = 26
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1

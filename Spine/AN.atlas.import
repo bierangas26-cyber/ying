@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bkcan5pkxdqdq"
+path="res://.godot/imported/AN.atlas-0b008f2bbab04e34aa19af13ea89bc24.spatlas"
+
+[deps]
+
+source_file="res://Spine/AN.atlas"
+dest_files=["res://.godot/imported/AN.atlas-0b008f2bbab04e34aa19af13ea89bc24.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

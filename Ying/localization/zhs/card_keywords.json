@@ -1,0 +1,8 @@
+{
+  "YING_KEYWORD_ZHONG_MO.title": "终末",
+  "YING_KEYWORD_ZHONG_MO.description": "当你打出带有此词条的牌时，自动从[gold]轮回堆[/gold]中免费打出所有同名牌。",
+  "YING_KEYWORD_JING_ZHI.title": "静滞",
+  "YING_KEYWORD_JING_ZHI.description": "带有静滞的牌，每在本场战斗打出1次，其能量费用减1。若消耗心脏充能，则每打出1次，充能消耗减少50%（向下取整）。若是能力牌则打出时免费.所有减费最低至0。卡牌效果带来的额外回合开始此牌将返回你的手牌.",
+  "YING_KEYWORD_LUN_HUI.title": "轮回",
+  "YING_KEYWORD_LUN_HUI.description": "被消耗时，将一张此牌的复制品加入到轮回堆。"
+}

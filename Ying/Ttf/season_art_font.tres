@@ -1,0 +1,6 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://coae8vpmj2tmy"]
+
+[ext_resource type="FontFile" uid="uid://qffwildip077" path="res://Ying/Ttf/ChillKai_Big5.ttf" id="1_n0eik"]
+
+[resource]
+font = ExtResource("1_n0eik")

@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://ci35w5fhxh5b1"]
+
+[ext_resource type="Texture2D" uid="uid://bcfm4iqyinw7" path="res://Ying/Images/Charui/map_marker_char_name.png" id="1_e0oqa"]
+
+[node name="YingIcon" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="MapMarkerCharName" type="Sprite2D" parent="."]
+position = Vector2(29.999998, 28.000004)
+scale = Vector2(0.5703125, 0.60119635)
+texture = ExtResource("1_e0oqa")

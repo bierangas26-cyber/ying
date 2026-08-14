@@ -1,0 +1,21 @@
+{
+  "YING_CARDPILE_REBIRTH_PILE.title": "轮回牌堆",
+  "YING_CARDPILE_REBIRTH_PILE.description": "春.夏.秋.冬.每四回合每经过四季一轮（4回合），抽 2 张牌，并为堆中的攻击牌和技能牌附加“轮回”词条。",
+  "YING_CARDPILE_REBIRTH_PILE.empty": "轮回牌堆中暂无卡牌。",
+  "YING_LUNHUI_SPRING.title": "春：选择0~4张手牌移入轮回堆",
+  "YING_LUNHUI_SUMMER.title": "夏：选择0~3张手牌移入轮回堆，从轮回堆选0~1张牌移入手牌",
+  "YING_LUNHUI_AUTUMN.title": "秋：选择0~2张手牌移入轮回堆，从轮回堆选0~2张牌移入手牌",
+  "YING_LUNHUI_WINTER.title": "冬：从轮回堆选0~3张牌移入手牌",
+  "YING_REBIRTH_SPRING_SELECT.title": "春季轮回",
+  "YING_REBIRTH_SPRING_SELECT.description": "选择 0~4 张手牌移入轮回堆",
+  "YING_REBIRTH_SUMMER_SELECT.title": "夏季轮回",
+  "YING_REBIRTH_SUMMER_SELECT.description": "选择 0~3 张手牌移入轮回堆，然后从轮回堆选择 0~1 张牌移入手牌",
+  "YING_REBIRTH_AUTUMN_SELECT.title": "秋季轮回",
+  "YING_REBIRTH_AUTUMN_SELECT.description": "选择 0~2 张手牌移入轮回堆，然后从轮回堆选择 0~2 张牌移入手牌",
+  "YING_REBIRTH_WINTER_SELECT.title": "冬季轮回",
+  "YING_REBIRTH_WINTER_SELECT.description": "从轮回堆选择 0~3 张牌移入手牌",
+  "YING_TOPBARBUTTON_CUSTOM_SHOP.title": "反现实商店",
+  "YING_TOPBARBUTTON_CUSTOM_SHOP.description": "使用金币购买先古遗物或抽取随机遗物。注意：请不要在战斗结束后结算环节或即将进入战斗前打开商店",
+  "YING_STATIC_HOVER_JINGZHI_COUNT.title": "静滞计数",
+  "YING_STATIC_HOVER_JINGZHI_COUNT.description": ""
+}

@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://n8g7v48f3mh4"]
+
+[ext_resource type="VideoStream" uid="uid://d03h1hn3yg7uw" path="res://Ying/Images/Visual/ying.ogv" id="1_r1g4q"]
+
+[node name="YingBg" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(960, 540)
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("1_r1g4q")
+autoplay = true
+expand = true
+loop = true

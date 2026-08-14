@@ -1,0 +1,16 @@
+{
+  "YING_RELIC_YING_HEART.title": "蓝之心脏",
+  "YING_RELIC_YING_HEART.description": "战斗开始时，获得 10 点 [gold]心脏充能[/gold] 。每当你受到伤害时，获得 4 点 [gold]心脏充能[/gold] ，并在下个回合开始时获得 6 点 [gold]格挡[/gold] （不可叠加）。普通敌人额外掉落一组卡牌奖励。",
+  "YING_RELIC_YING_HEART.flavor": "蓝之心脏。",
+  "YING_RELIC_BLUE_HEART.title": "蓝之心脏·终",
+  "YING_RELIC_BLUE_HEART.description": "战斗开始时，获得 10 点 [gold]心脏充能[/gold] 。每当你受到伤害时，获得 4 点 [gold]心脏充能[/gold] ，并在下个回合开始时获得 6 点 [gold]格挡[/gold]（不可叠加） 。生命低于 30% 时，单次受到的伤害不会超过生命上限的 10% 。普通敌人额外掉落一组卡牌奖励。",
+  "YING_RELIC_BLUE_HEART.flavor": "庇护着脆弱的生命。",
+  "SEA_GLASS.YING_CHARACTER_YING.title": "樱玻璃",
+  "YING_RELIC_FAN_XIAN_SHI_ZAI_E.title": "反现实灾厄",
+  "YING_RELIC_FAN_XIAN_SHI_ZAI_E.description": "前{BlockTurns}回合开始时，获得12点格挡。\n战斗胜利后，恢复{Heal}%的最大生命值。\n战斗开始时，随机给所有敌人附加一个反现实评级（d~sss级）。\n战斗胜利后，根据本场战斗最终评级获得额外金币。",
+  "YING_RELIC_FAN_XIAN_SHI_ZAI_E.flavor": "灾厄并非来自外界，而是你自身。",
+  "YING_NEOW_GET_RELIC_TITLE": "[b][gold]反现实灾厄[/gold] 获得遗物[/b]",
+  "YING_NEOW_GET_RELIC_DESC": "获得蕴含反现实力量的灾厄遗物。",
+  "YING_NEOW_SKIP_TITLE": "[b][gold]跳过[/gold] 正常游玩[/b]",
+  "YING_NEOW_SKIP_DESC": "不领取遗物，直接进行常规的涅奥祝福选择。"
+}

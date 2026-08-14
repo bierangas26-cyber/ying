@@ -1,0 +1,94 @@
+[gd_scene load_steps=7 format=3 uid="uid://c6n2nrxbr43ei"]
+
+[ext_resource type="Texture2D" uid="uid://lpd6ynk7fnng" path="res://Ying/Images/UI/5722953004fc517b74ae3bc499a26210.png" id="1_xpu4b"]
+[ext_resource type="Texture2D" uid="uid://bhitx7ac8kob6" path="res://Ying/mod_image.png" id="2_o5ehu"]
+[ext_resource type="Shader" uid="uid://jejn1pol380p" path="res://Ying/Scenes/IllusionNode.gdshader" id="3_o5ehu"]
+[ext_resource type="Texture2D" uid="uid://b0wg8rlnyhtsj" path="res://Ying/Images/UI/09a86c7dcebd3d8d103c11f3711023af.png" id="3_x30s3"]
+[ext_resource type="FontFile" uid="uid://qffwildip077" path="res://Ying/Ttf/ChillKai_Big5.ttf" id="4_eimq8"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_x30s3"]
+shader = ExtResource("3_o5ehu")
+shader_parameter/core_color = Color(1, 1, 1, 1)
+shader_parameter/glow_color = Color(1, 0.9019608, 0.8745098, 1)
+shader_parameter/spread = 3.0
+shader_parameter/outer_intensity = 1.5
+shader_parameter/inner_intensity = 1.2
+shader_parameter/pulse_speed = 3.0
+shader_parameter/pulse_boost = 0.5
+
+[node name="IllusionNode" type="Control"]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = -496.0
+offset_bottom = -244.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Mask" type="TextureRect" parent="."]
+clip_children = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_xpu4b")
+expand_mode = 1
+
+[node name="Illustration" type="TextureRect" parent="Mask"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_o5ehu")
+expand_mode = 1
+
+[node name="Frame" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_x30s3")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_x30s3")
+expand_mode = 1
+
+[node name="DurabilityLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -48.0
+offset_top = -34.0
+offset_right = 7.0
+offset_bottom = 6.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0.9883887, 0.8734883, 0.910891, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0)
+theme_override_colors/font_outline_color = Color(0.66591394, 0.456276, 0.43007156, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 1
+theme_override_constants/outline_size = 5
+theme_override_constants/shadow_outline_size = 2
+theme_override_fonts/font = ExtResource("4_eimq8")
+theme_override_font_sizes/font_size = 32
+text = "10"
+horizontal_alignment = 2
+vertical_alignment = 2
